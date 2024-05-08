@@ -51,24 +51,26 @@ class SiteFooter extends React.Component {
           <div className="footer-top">
             <div className="powered-area">
               <ul className="logo-list">
-                <li>{intl.formatMessage(messages['footer.poweredby.text'])}</li>
+                <li>XNetz Game Images by</li>
                 <li>
-                  <a href="https://docs.tutor.overhang.io" rel="noreferrer" target="_blank">
                     <Image
-                      src={`${config.LMS_BASE_URL}/static/indigo/images/tutor-logo.png`}
-                      alt={intl.formatMessage(messages['footer.tutorlogo.altText'])}
-                      width="57"
+                      src={`${config.LMS_BASE_URL}/static/indigo/images/philip-julie.jpg`}
+                      alt="philip-julie" 
+                      height="72"
                     />
-                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="powered-area">
+              <ul class="logo-list">
+                <li>
+                  <img src={`${config.LMS_BASE_URL}/static/indigo/images/xnetz.png`} alt="xnetz" height="24" />
                 </li>
                 <li>
-                  <a href="https://open.edx.org" rel="noreferrer" target="_blank">
-                    <Image
-                      src={logo || `${config.LMS_BASE_URL}/static/indigo/images/openedx-logo.png`}
-                      alt={intl.formatMessage(messages['footer.logo.altText'])}
-                      width="79"
-                    />
-                  </a>
+                  <img src={`${config.LMS_BASE_URL}/static/indigo/images/xecure-it.png`} alt="xecure-it" height="24" />
+                </li>
+                <li>
+                  <img src={`${config.LMS_BASE_URL}/static/indigo/images/secure-culture.png`} alt="secure-culture" height="54" />
                 </li>
               </ul>
             </div>
