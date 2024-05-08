@@ -67,23 +67,27 @@ var SiteFooter = /*#__PURE__*/function (_React$Component) {
         className: "powered-area"
       }, /*#__PURE__*/React.createElement("ul", {
         className: "logo-list"
-      }, /*#__PURE__*/React.createElement("li", null, intl.formatMessage(messages['footer.poweredby.text'])), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-        href: "https://docs.tutor.overhang.io",
-        rel: "noreferrer",
-        target: "_blank"
-      }, /*#__PURE__*/React.createElement(Image, {
-        src: "".concat(config.LMS_BASE_URL, "/static/indigo/images/tutor-logo.png"),
-        alt: intl.formatMessage(messages['footer.tutorlogo.altText']),
-        width: "57"
-      }))), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-        href: "https://open.edx.org",
-        rel: "noreferrer",
-        target: "_blank"
-      }, /*#__PURE__*/React.createElement(Image, {
-        src: logo || "".concat(config.LMS_BASE_URL, "/static/indigo/images/openedx-logo.png"),
-        alt: intl.formatMessage(messages['footer.logo.altText']),
-        width: "79"
-      })))))), /*#__PURE__*/React.createElement("span", {
+      }, /*#__PURE__*/React.createElement("li", null, "XNetz Game Images by"), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement(Image, {
+        src: "".concat(config.LMS_BASE_URL, "/static/indigo/images/philip-julie.jpg"),
+        alt: "philip-julie",
+        height: "72"
+      })))), /*#__PURE__*/React.createElement("div", {
+        "class": "powered-area"
+      }, /*#__PURE__*/React.createElement("ul", {
+        "class": "logo-list"
+      }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("img", {
+        src: "".concat(config.LMS_BASE_URL, "/static/indigo/images/xnetz.png"),
+        alt: "xnetz",
+        height: "24"
+      })), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("img", {
+        src: "".concat(config.LMS_BASE_URL, "/static/indigo/images/xecure-it.png"),
+        alt: "xecure-it",
+        height: "24"
+      })), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("img", {
+        src: "".concat(config.LMS_BASE_URL, "/static/indigo/images/secure-culture.png"),
+        alt: "secure-culture",
+        height: "54"
+      }))))), /*#__PURE__*/React.createElement("span", {
         className: "copyright-site"
       }, intl.formatMessage(messages['footer.copyright.text'])), showLanguageSelector && /*#__PURE__*/React.createElement(LanguageSelector, {
         options: supportedLanguages,

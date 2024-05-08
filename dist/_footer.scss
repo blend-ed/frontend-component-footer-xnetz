@@ -3,3 +3,12 @@ $gray-footer: #fcfcfc !default;
 .footer {
   background-color: $gray-footer;
 }
+
+footer.tutor-container {
+    .footer-top {
+        margin: 0 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}    
