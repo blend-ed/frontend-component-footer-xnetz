@@ -64,13 +64,14 @@ class SiteFooter extends React.Component {
             <div class="powered-area">
               <ul class="logo-list">
                 <li>
-                  <img src={`${config.LMS_BASE_URL}/static/indigo/images/xnetz.png`} alt="xnetz" height="24" />
+                  <img src={`${config.LMS_BASE_URL}/static/indigo/images/secure-culture.png`} alt="secure-culture" height="54" />
                 </li>
+              </ul>
+            </div>
+            <div class="powered-area">
+              <ul class="logo-list">
                 <li>
                   <img src={`${config.LMS_BASE_URL}/static/indigo/images/xecure-it.png`} alt="xecure-it" height="24" />
-                </li>
-                <li>
-                  <img src={`${config.LMS_BASE_URL}/static/indigo/images/secure-culture.png`} alt="secure-culture" height="54" />
                 </li>
               </ul>
             </div>
